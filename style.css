@@ -8,8 +8,6 @@
   --rule: #dfe3ea;
   --bg: #ffffff;
   --bg-alt: #f6f7f9;
-  --tbd-bg: #fff3bf;
-  --tbd-ink: #6b4e00;
 }
 
 * { box-sizing: border-box; }
@@ -29,25 +27,6 @@ a { color: var(--navy-soft); }
 a:hover { color: var(--gold); }
 
 .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
-
-/* ---- Draft banner: delete the <div class="draft-banner"> before launch ---- */
-.draft-banner {
-  background: var(--tbd-bg);
-  color: var(--tbd-ink);
-  font: 600 14px/1.4 system-ui, sans-serif;
-  text-align: center;
-  padding: 8px 16px;
-}
-
-/* ---- Items still to be decided: search the HTML for class="tbd" ---- */
-.tbd {
-  background: var(--tbd-bg);
-  color: var(--tbd-ink);
-  padding: 0 4px;
-  border-radius: 3px;
-  font-family: system-ui, sans-serif;
-  font-size: 0.85em;
-}
 
 /* ---- Header ---- */
 header.hero {
